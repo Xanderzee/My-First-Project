@@ -98,12 +98,30 @@ nav .buttons #blue{
     color: #175CD3;
 }
 
-.Boy{
+.firstbase{
     display: flex;
     flex-direction: row;
+    margin: 7rem;
+    
+}
+.firstbase .header .text{
+    color: #1D2939;
+    font-weight: normal;
+    gap: 1.5rem;
+    margin-right: 25rem;
+    justify-content: center;
 }
 
-
+.firstbase .header .buttons{
+    display: block;
+    gap: 5rem;
+    margin: 1rem;
+}
+.firstbase .header .preview{
+    display: flex;
+    gap: 1rem;
+  
+}
 .profile{
     display: flex;
     flex-direction: column;
@@ -113,6 +131,7 @@ nav .buttons #blue{
     border: 3rm;
     border-radius: 20px;
     padding: 2rem;
+    /* image-resolution: 100px; */
 }
 .grid{
     display: grid;
@@ -174,4 +193,32 @@ nav .buttons #blue{
     width: 50px;
     gap: 1rem;
 
+}
+.imageright{
+    margin-bottom: 10rem;
+}
+
+.newbase{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.newbase .icon{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+.newbase .secondbase{
+    display: flex;
+    flex-direction: row;
+}
+.newbase .secondbase .text{
+    gap: 5rem;
+    margin: 1rem;
+    height: 300;
+    font-weight: 600;
+}
+.newbase .secondbase .images{
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
 }
